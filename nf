@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "Tg豆瓣",
-      "name": "🔍",
+      "name": "🔍豆瓣",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 0,
