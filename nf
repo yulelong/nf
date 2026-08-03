@@ -8,7 +8,9 @@
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 0,
-      "changeable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "indexs": 1,
       "ext": {
         "siteUrl": "http://127.0.0.1:9999",
         "count": 4,
