@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "Tg豆瓣",
-      "name": "🔍Tg豆瓣┃本接口免费-🈲贩卖",
+      "name": "🔍",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 0,
@@ -1051,6 +1051,43 @@
       }
     },
     {
+      "key": "酷我听书",
+      "name": "📚酷我听书",
+      "type": 3,
+      "api": "https://git.yylx.win/raw.githubusercontent.com/yoursmile66/TVBox/main/js/lib/drpy2.min.js",
+      "ext": "https://git.yylx.win/raw.githubusercontent.com/yoursmile66/TVBox/main/js/酷我听书.js"
+    },
+    {
+      "key": "啊哈DJ",
+      "name": "🎵啊哈DJ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "编码": "UTF-8",
+        "请求头": "User-Agent$MOBILE_UA",
+        "主页url": "https://m.ahadj.com",
+        "首页": "200",
+        "起始页": "1",
+        "分类url": "/music/id-{cateId}-{catePg}.html;;mrcRAD",
+        "分类": "劲爆舞蹈视频$112#车载发烧视频$125#音乐派对视频$90#中文抒情视频$20#国外夜店视频$21#高清车展视频$58#粤语舞曲视频$114#英文抒情视频$46#日韩歌曲视频$50#串烧舞曲视频$62#钢管舞曲视频$64#国外舞曲视频$65#模特DJ视频$161#DJ打碟视频$163#中文夜店视频$180#华语超清MV$31#国外超清MV$44#车载音乐$85#中文DJ单曲$22#粤语DJ舞曲$29#草原DJ舞曲$35#经典粤语歌曲$54#中文DJ串烧$63#优美纯音乐$120#欧美单曲$13#国外串烧$6#蓝调爵士$117#club 舞曲$110#说唱歌曲$53#印度舞曲$47#Vocal House$43#Pure House$42#Club Dance$40#FunkyHouse$39#Mash Up$38#ElectroHouse$37#DutchHouse$36#英文歌曲$30#Club House$41#纯DJ音乐$121#Crooklyn$140#Dubstep$141#Tits Exclu$143#Chartbusters$144#Bounce EDM$146#Beezo BeeHive$147#Tech House$148#Headliner$149#Nothing$150#Rock$151#Techno$152#Transition$153#原味越鼓$184#Ibiza 舞曲$135#BigRoom$134#MyMP3Pool$133#Trap 舞曲$132#BarBangerz$131#Club Killers$130#House Dance$129#HouseFuture$128#Deep House$127#Deep 舞曲$126#Exclusive$124#Hip Hop$119#雷鬼音乐$118#无损中文舞曲$16#无损英文舞曲$17#无损中文歌曲$18#无损英文歌曲$19#无损串烧舞曲$33#车载3D音乐$116#外文3D舞曲$92#中文3D舞曲$93#8倍音质草原歌$137#8倍音质国外曲$138#8倍音质歌曲$164#中文抖音歌曲$168#英文抖音音乐$169#并四$67#自由步$82#广场舞曲$81#三步踩$80#拉丁$79#桑巴$78#摇并$77#吉特巴$76#探戈$75#恰恰$74#伦巴$73#慢三$72#中三$71#快三$70#慢四$69#快四$68#中四$66#华尔兹$139#中文的士高$166#国外的士高$167#DJ伴奏$165#",
+        "分类二次截取": "<div class=\"sort\">&&<div class=\"s_com",
+        "分类数组": "<a&&/a>",
+        "分类标题": ">&&<",
+        "分类ID": "href=\"/music/id-&&-1.html",
+        "二次截取": "yinyue_list&&page_box",
+        "数组": "<li&&</li",
+        "图片": "https://www.ahadj.com/res/home/images/music_37.png",
+        "链接": "href=\"&&\"",
+        "简介": "-+Description\" content=\"&&\"",
+        "跳转播放链接": "<video controls=\"true*src=\"&&\"",
+        "标题": "<h*>&&</h",
+        "副标题": "icon-huo\">&&</span"
+      }
+    },
+    {
       "key": "哔哩",
       "name": "🅱️哔哩哔哩",
       "type": 3,
@@ -1064,6 +1101,114 @@
       },
       "ext": {
         "json": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/Bili.json",
+        "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
+        "cookie": ""
+      }
+    },
+    {
+      "key": "相声小品",
+      "name": "🅱️相声小品",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/Blixs.json",
+        "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
+        "cookie": ""
+      }
+    },
+    {
+      "key": "戏曲",
+      "name": "🅱️戏曲",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/Blixq.json",
+        "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
+        "cookie": ""
+      }
+    },
+    {
+      "key": "少儿",
+      "name": "🅱️少儿",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/少儿教育.json",
+        "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
+        "cookie": ""
+      }
+    },
+    {
+      "key": "小学",
+      "name": "🅱️小学",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/小学课堂.json",
+        "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
+        "cookie": ""
+      }
+    },
+    {
+      "key": "初中",
+      "name": "🅱️初中",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/初中课堂.json",
+        "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
+        "cookie": ""
+      }
+    },
+    {
+      "key": "高中",
+      "name": "🅱️高中",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/高中课堂.json",
         "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
         "cookie": ""
       }
@@ -1230,53 +1375,6 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
-  "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": [
-        "8.8.4.4",
-        "8.8.8.8"
-      ]
-    },
-    {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ]
-    },
-    {
-      "name": "AdGuard",
-      "url": "https://dns.adguard.com/dns-query",
-      "ips": [
-        "94.140.14.140",
-        "94.140.14.141"
-      ]
-    },
-    {
-      "name": "DNSWatch",
-      "url": "https://resolver2.dns.watch/dns-query",
-      "ips": [
-        "84.200.69.80",
-        "84.200.70.40"
-      ]
-    },
-    {
-      "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-quer",
-      "ips": [
-        "9.9.9.9",
-        "149.112.112.112"
-      ]
-    }
-  ],
-  "ads": [
-    "mozai.4gtv.tv"
-  ],
   "proxy": [
     "raw.githubusercontent.com",
     "googlevideo.com",
@@ -1399,6 +1497,50 @@
         "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
         "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
         "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+      ]
+    }
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
       ]
     }
   ],
@@ -1564,7 +1706,7 @@
       ]
     }
   ],
-  "spider": "https://jihulab.com/yoursmile7/TVBox/-/raw/main/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
-  "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
-  "logo": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/NanFeng.gif"
+  "ads": [
+    "mozai.4gtv.tv"
+  ]
 }
