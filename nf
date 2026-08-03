@@ -5,6 +5,7 @@
       "name": "🔍豆瓣",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
+      "indexs": 1,
       "searchable": 0,
       "quickSearch": 0
       "changeable": 0,
