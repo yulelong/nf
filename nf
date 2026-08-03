@@ -6,6 +6,7 @@
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 0,
+      "quickSearch": 0
       "changeable": 0,
       "ext": {
         "siteUrl": "http://127.0.0.1:9999",
@@ -14,7 +15,6 @@
         "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
         "filter": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/douban.json"
       },
-      "quickSearch": 0
     },
     {
       "key": "弹幕",
