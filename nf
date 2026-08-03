@@ -3,21 +3,15 @@
   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "sites": [
     {
-      "key": "Tg豆瓣",
-      "name": "🔍豆瓣",
+      "key": "Douban",
+      "name": "🏠豆瓣[导航]",
       "type": 3,
-      "api": "csp_TgYunDouBanPan",
+      "api": "csp_Douban",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
       "indexs": 1,
-      "ext": {
-        "siteUrl": "http://127.0.0.1:9999",
-        "count": 4,
-        "channelUsername": "Tgsearchers6,peccxinpd,yunpan139,yggpan,yunpanuc,shareAliyun,yunpan189,BaiduCloudDisk,Channel_Shares_115,gimy115,ydypzyfx,dianying4K,sbsbsnsqq,Q_dongman,ysmffx,XiangxiuNBB,yoyokuakeduanju,yeqingjie_GJG666,TG654TG,PanjClub,guoman4K,alyp_1,kuake_yppan,Baidu_Netdisk,bdwpzhpd,baidu_yppan,zyfb123,xx123pan,zyzhpd123,yp123pan,cloudtianyi,txtyzy,tianyirigeng,tyypzhpd,zaihuayun,ali_yppan",
-        "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
-        "filter": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/douban.json"
-      }
+      "ext": "https://jk.catvod.site/jk/t4/douban.json"
     },
     {
       "key": "弹幕",
