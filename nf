@@ -3,7 +3,7 @@
   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "sites": [
     {
-      "key": "Douban",
+      "key": "Tg豆瓣",
       "name": "🏠豆瓣[导航]",
       "type": 3,
       "api": "csp_Douban",
