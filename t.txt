@@ -13,7 +13,6 @@
       "indexs": 1,
       "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
       "filter": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/douban.json"
-      "ext": "https://jk.catvod.site/jk/t4/douban.json"
     },
     {
       "key": "弹幕",
